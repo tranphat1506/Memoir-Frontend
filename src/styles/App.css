@@ -1,0 +1,51 @@
+/* width */
+.dark ::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.dark ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* Handle */
+.dark ::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+/* Handle on hover */
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d7d7d7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #959595;
+    cursor: grab;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #686868;
+}
+
+html,
+body {
+    font-family: 'NunitoRegular';
+    font-size: 16px;
+    background: #ffffff;
+}
+
+html.dark {
+    background-color: #111;
+}
